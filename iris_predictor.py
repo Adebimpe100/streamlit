@@ -23,7 +23,7 @@ print('Average Accuracy:', round(sum(scores)/10))
 #Title
 
 st.title('DATA SCIENCE STREAMLIT PROJECT')
-st.text('A simple application that predicts the class of an iris flower\n based on the sepal and petal characteristics chosen')
+st.text('A simple application that predicts the class of an iris flower\nbased on the sepal and petal characteristics chosen')
 #Header 
 
 st.header('IRIS DATASET PREDICTOR')
