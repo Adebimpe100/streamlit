@@ -39,7 +39,7 @@ min_x = np.min(x)
 max_x = np.max(x)
 mean_x = round(sum(x)/len(x))
 #mean_x = float[mean_x]
-level = st.slider("Select the sepal length value", min_x, mean_x, max_x)
+level = st.slider("Select the sepal length value", min_x,  max_x)
 st.text('Sepal length: {}'.format(level))
 st.text('')
 
@@ -49,7 +49,7 @@ min_w = np.min(w)
 max_w = np.max(w)
 mean_w =round(sum(w)/len(w))
 #mean_w = float[mean_w]
-level0 = st.slider("Select the sepal width value", min_w, mean_w, max_w)
+level0 = st.slider("Select the sepal width value", min_w,  max_w)
 st.text('Sepal width: {}'.format(level0))
 st.text('')
 
@@ -59,7 +59,7 @@ min_y = np.min(y)
 max_y = np.max(y)
 mean_y = round(sum(y)/len(y))
 #mean_y = float[mean_y]
-level2 = st.slider("Select the petal length value", min_y, mean_y, max_y)
+level2 = st.slider("Select the petal length value", min_y, max_y)
 st.text('Petal length: {}'.format(level2))
 st.text('')
 
@@ -69,7 +69,7 @@ min_z = np.min(z)
 max_z = np.max(z)
 mean_z = round(sum(z)/len(z))
 #mean_z = float[mean_z]
-level3 = st.slider("Select the petal width value", min_z, mean_z, max_z)
+level3 = st.slider("Select the petal width value", min_z, max_z)
 st.text('Petal width: {}'.format(level3))
 st.text('')
 
