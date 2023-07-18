@@ -26,7 +26,7 @@ st.title('DATA SCIENCE STREAMLIT PROJECT')
 st.text('A simple application that predicts the class of an iris flower\nbased on the sepal and petal characteristics chosen')
 #Header 
 
-st.header('IRIS DATASET PREDICTOR')
+st.header('IRIS CLASS PREDICTOR')
 #Making a dataset for the features
 dataset = pd.DataFrame(iris.data, columns= iris.feature_names)
 
