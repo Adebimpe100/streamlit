@@ -36,7 +36,9 @@ dataset = pd.DataFrame(iris.data, columns= iris.feature_names)
 
 x = dataset['sepal length (cm)']
 min_x = np.min(x)
+min_x = float(min_x)
 max_x = np.max(x)
+max_x = float(max_x)
 mean_x = round(sum(x)/len(x))
 mean_x = float(mean_x)
 level = st.slider("Select the sepal length value", min_x,  max_x)
@@ -46,7 +48,9 @@ st.text('')
 #Sepal width
 w = dataset['sepal width (cm)']
 min_w = np.min(w)
+min_w = float(min_w)
 max_w = np.max(w)
+max_w = float(max_w)
 mean_w =round(sum(w)/len(w))
 mean_w = float(mean_w)
 level0 = st.slider("Select the sepal width value", min_w,  max_w)
@@ -56,7 +60,9 @@ st.text('')
 #Petal length
 y = dataset['petal length (cm)']
 min_y = np.min(y)
+min_y = float(min_y)
 max_y = np.max(y)
+max_y = float(max_y)
 mean_y = round(sum(y)/len(y))
 mean_y = float(mean_y)
 level2 = st.slider("Select the petal length value", min_y, max_y)
@@ -66,7 +72,9 @@ st.text('')
 #Petal width
 z = dataset['petal width (cm)']
 min_z = np.min(z)
+min_z = float(min_z)
 max_z = np.max(z)
+max_z = float(max_z)
 mean_z = round(sum(z)/len(z))
 mean_z = float(mean_z)
 level3 = st.slider("Select the petal width value", min_z, max_z)
