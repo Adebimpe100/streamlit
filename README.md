@@ -1,2 +1,2 @@
-# https://app-534vo7kzfpb.streamlit.app/
+# Iris app
 Iris class predictor
